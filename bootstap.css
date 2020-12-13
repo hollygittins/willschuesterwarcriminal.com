@@ -41,7 +41,7 @@ h1.header {
   @media only screen and (max-width: 767px) {
     .scroll-text {
      font-size: 30px;
-    }
+     }
   }
 
   .video {
@@ -65,7 +65,7 @@ h1.header {
       font-size: 30px;
       position: absolute;
       top: 200px;
-      left: 130px;
+      left: 100px;
   }
 }
 

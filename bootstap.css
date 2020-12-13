@@ -1,0 +1,134 @@
+body { 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+   
+  }
+
+  @media (max-width: 480px) {
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(mobileimage.jpg);
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+	    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(mainimage.jpg);
+   }
+}
+
+h1.header {
+  color: white ;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  h1.header {
+      font-size: 40px;
+  }
+}
+
+.scroll-text {
+  color: red;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 50px;
+}
+
+
+  @media only screen and (max-width: 767px) {
+    .scroll-text {
+     font-size: 30px;
+    }
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1025px) {
+  video {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    
+ }
+}
+
+.cell {
+  color: white ;
+  font-family: 'East Sea Dokdo', cursive;
+
+}
+
+@media (min-width: 1025px) {
+  .cell {
+    font-size: 50px;
+    position: absolute;
+    top: 650px;
+    left: 450px;
+
+    
+ }
+}
+
+@media (max-width: 480px) {
+  .cell {
+      font-size: 30px;
+      position: absolute;
+      top: 350px;
+      left: 130px;
+  }
+}
+
+.hell {
+  color: white ;
+  font-family: 'East Sea Dokdo', cursive;
+
+}
+
+@media (min-width: 1025px) {
+  .hell {
+    font-size: 50px;
+    position: absolute;
+    top: 650px;
+    left: 800px;
+
+    
+ }
+}
+
+@media (max-width: 480px) {
+  .hell {
+      font-size: 30px;
+      position: absolute;
+      top: 450px;
+      left: 130px;
+  }
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h3.header {
+  color: white ;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  h3.header {
+      font-size: 20px;
+  }
+}

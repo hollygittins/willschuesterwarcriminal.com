@@ -60,6 +60,15 @@ h1.header {
  }
 }
 
+@media (max-width: 480px) {
+  .video {
+      font-size: 30px;
+      position: absolute;
+      top: 350px;
+      left: 130px;
+  }
+}
+
 .cell {
   color: white ;
   font-family: 'East Sea Dokdo', cursive;

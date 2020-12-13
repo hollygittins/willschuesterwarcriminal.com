@@ -6,7 +6,7 @@ body {
    
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 812px) {
     body {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(hellmobile.jpg);
     }
@@ -25,7 +25,7 @@ h1.header {
     text-align: center;
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 812px) {
     h1.header {
         font-size: 40px;
     }
@@ -38,7 +38,7 @@ h1.header {
     text-align: center;
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 812px) {
     h3.header {
         font-size: 40px;
     }
@@ -63,7 +63,7 @@ h1.header {
    }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 812px) {
     .playlist {
         
         position: absolute;

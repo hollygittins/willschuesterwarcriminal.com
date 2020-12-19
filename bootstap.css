@@ -90,8 +90,8 @@ h1.header {
   .cell {
       font-size: 30px;
       position: absolute;
-      top: 350px;
-      left: 130px;
+      top: 400px;
+      left: 135px;
   }
 }
 
@@ -117,7 +117,7 @@ h1.header {
       font-size: 30px;
       position: absolute;
       top: 450px;
-      left: 130px;
+      left: 135px;
   }
 }
 

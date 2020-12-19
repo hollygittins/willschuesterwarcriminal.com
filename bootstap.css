@@ -27,7 +27,7 @@ h1.header {
 
 @media (max-width: 480px) {
   h1.header {
-      font-size: 40px;
+      font-size: 39px;
   }
 }
 
